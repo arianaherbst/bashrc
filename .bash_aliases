@@ -4,8 +4,8 @@ alias ....='cd ../../../'
 alias .....='cd ../../../../'
 alias ......='cd ../../../../../'
 alias .4='cd ../../../../'
-alias .5='cd ../../../../../'
-alias .6='cd ../../../../../../'
+alias .5='cd ../../../../..'
+alias .6='cd ../../../../../..'
 
 alias mkdir='mkdir -pv'
 
@@ -36,12 +36,19 @@ alias shutdown='sudo /sbin/shutdown'
 alias gb='git branch'
 alias gs='git status'
 alias gd='git diff'
+alias ga='git add'
+alias gp='git pull'
+alias gco='git commit -m'
+alias gch='git checkout'
 alias v='vim'
-
+alias s='source'
 git config --global pretty.changelog "format:%Cred%H%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset"
 alias gl='git log --pretty=changelog -n 20'
 alias grep='grep -n --color=always'
-alias g='grep -r -n --color=always'
+alias g='grep -r'
+
+
+
 
 
 # Colorize bitbake output
