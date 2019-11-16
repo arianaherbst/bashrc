@@ -40,6 +40,8 @@ alias ga='git add'
 alias gp='git pull'
 alias gco='git commit -m'
 alias gch='git checkout'
+alias gpsh='git push origin'
+alias gpll='git pull origin'
 alias v='vim'
 alias s='source'
 git config --global pretty.changelog "format:%Cred%H%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset"
