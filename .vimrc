@@ -38,3 +38,4 @@ if &diff
    nnoremap :q :qa 
    set noro
 endif
+set nofixendofline
